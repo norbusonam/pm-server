@@ -32,6 +32,9 @@ module.exports.routes = {
   * not match any of those, it is matched against static assets.             *
   *                                                                          *
   ***************************************************************************/
-
+ 
+ 'POST /api/v1/auth/signup': { action: 'auth/signup' },
+ 'POST /api/v1/auth/login': { action: 'auth/login' },
+ 'GET  /api/v1/auth/status': { action: 'auth/status' },
 
 };
